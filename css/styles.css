@@ -6,8 +6,15 @@
   --color-body: #918ca4;
 }
 
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+
 body {
   font-family: Inter, Arial, Helveticam sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.5;
   color: var(--color-body);
 }
 
@@ -15,4 +22,22 @@ h1,
 h2,
 h3 {
   color: var(--color-headings);
+}
+
+h1 {
+  /* 1 x font size of the html element */
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  margin-top: 0;
 }
