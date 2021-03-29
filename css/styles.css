@@ -335,12 +335,16 @@ a {
   margin-bottom: 2rem;
 }
 
+.plan--popular .card__header {
+  position: relative;
+}
+
 .plan--popular .card__header::before {
-  content: url(..images/popular.svg);
+  content: url(../images/popular-1.svg);
   width: 40px;
   display: inline-block;
   position: absolute;
-  top: 0;
+  top: -6px;
   right: 5%;
 }
 
