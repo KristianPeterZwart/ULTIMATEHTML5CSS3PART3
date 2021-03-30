@@ -261,6 +261,11 @@ a {
   color: #fff;
 }
 
+.btn--stretched {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
 /* Inputs */
 .input {
   padding: 1.5 rem 3.5rem;
@@ -500,4 +505,28 @@ a {
   color: #fff;
   margin-top: 0;
   font-size: 3rem;
+}
+
+.callout .btn {
+  justify-self: center;
+  align-self: center;
+}
+
+.callout__content {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .callout .grid--1x2 {
+    grid-template-columns: 1fr auto;
+  }
+
+  .callout__content {
+    text-align: left;
+  }
+}
+
+.callout .btn {
+  justify-self: start;
+  margin: 0 2rem;
 }
