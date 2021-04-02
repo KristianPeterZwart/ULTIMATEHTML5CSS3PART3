@@ -334,6 +334,14 @@ a {
   color: #fff;
 }
 
+.card--primary .badge--primary {
+  background: #126de4;
+}
+
+.card--secondary .badge--secondary {
+  background: #02cdf1;
+}
+
 /* Plans */
 .plan__name {
   color: #fff;
@@ -677,7 +685,6 @@ a {
 
 .hero {
   clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
-
 }
 .hero__tagline {
   font-size: 2rem;
@@ -696,10 +703,9 @@ a {
   }
 
   .hero__content {
-  text-align: left;
-  align-self: center;
+    text-align: left;
+    align-self: center;
   }
-
 
   /* Domain Block */
   .block-domain .input-group {
@@ -732,4 +738,7 @@ a {
   gap: 4rem;
 }
 
+.block-plans .card {
+  max-width: 500px;
+  margin: 0 auto;
 }
