@@ -727,5 +727,9 @@ a {
   }
 }
 
+/* Plans Block */
+.block-plans .grid {
+  gap: 4rem;
+}
 
 }
